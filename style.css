@@ -1,0 +1,50 @@
+body {
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+}
+
+#cartshowcase {
+    width: 200px;
+    height: 200px;
+    border: 6px solid rgb(0, 0, 0);
+    padding: 25px;
+    margin: 2px;
+    text-align: center;
+}
+
+#pawpal {
+    width: 200px;
+    height: 200px;
+    border: 6px solid rgb(0, 0, 0);
+    padding: 25px;
+    margin: 2px;
+    text-align: center;
+}
+
+#fczapp {
+    width: 200px;
+    height: 200px;
+    border: 6px solid rgb(0, 0, 0);
+    padding: 25px;
+    margin: 2px;
+    text-align: center;
+}
+
+#AIresearchpaper {
+    width: 200px;
+    height: 200px;
+    border: 6px solid rgb(0, 0, 0);
+    padding: 25px;
+    margin: 2px;
+    text-align: center;
+}
+
+#animalresearchpaper {
+    width: 200px;
+    height: 200px;
+    border: 6px solid rgb(0, 0, 0);
+    padding: 25px;
+    margin: 2px;
+    text-align: center;
+}
