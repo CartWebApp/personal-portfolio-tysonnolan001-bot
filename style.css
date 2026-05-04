@@ -1,57 +1,137 @@
 body {
     justify-content: space-between;
-    flex-direction: row;
+    flex-direction: column;
     display: flex;
 }
 
+header {
+    width: 2240px;
+    display: flex;
+    border: 5px solid black;
+    margin: -10px;
+    background-color: #42B7FF;
+    text-align: center;
+}
+
+header h1 {
+    margin-left: 1000px;
+    font-size: xxx-large;
+}
+
 #cartshowcase {
-    width: 200px;
-    height: 200px;
-    border: 6px solid rgb(0, 0, 0);
+    max-width: fit-content;
+    max-height: fit-content;
+    border: 6px solid #B26E63;
     padding: 25px;
     margin: 2px;
+    margin-left: 50px;
     text-align: center;
-    margin-top: 300px;
-    margin-left: 150px;
+    margin-top: 500px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    border-radius: 8px;
 }
 
 #pawpal {
-    width: 200px;
-    height: 200px;
-    border: 6px solid rgb(0, 0, 0);
+    max-width: fit-content;
+    max-height: fit-content;
+    border: 6px solid #B26E63;
     padding: 25px;
     margin: 2px;
     text-align: center;
-    margin-top: 300px;
-    margin-left: 200px;
+    margin-top: -380px;
+    margin-left: 600px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    border-radius: 8px;
 }
 
 #fczapp {
-    width: 200px;
-    height: 200px;
-    border: 6px solid rgb(0, 0, 0);
-    padding: 25px;
+    width: 283px;
+    max-height: fit-content;
+    border: 6px solid #B26E63;
+    padding: 1px;
     margin: 2px;
     text-align: center;
-    margin-top: 800px;
-    margin-left: ;
+    margin-top: -300px;
+    margin-left: 1300px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    border-radius: 8px;
 }
 
 #AIresearchpaper {
-    width: 200px;
-    height: 200px;
-    border: 6px solid rgb(0, 0, 0);
+    max-width: fit-content;
+    max-height: fit-content;
+    border: 6px solid #B26E63;
     padding: 25px;
     margin: 2px;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 400px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    border-radius: 8px;
 }
 
 #animalresearchpaper {
-    width: 200px;
-    height: 200px;
-    border: 6px solid rgb(0, 0, 0);
+    max-width: fit-content;
+    max-height: fit-content;
+    border: 6px solid #B26E63;
     padding: 25px;
     margin: 2px;
     text-align: center;
+    margin-top: 400px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#cartshowcase:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+    transition-duration: 0.4s;
+}
+
+#pawpal:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+    transition-duration: 0.4s;
+}
+
+#fczapp:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+    transition-duration: 0.4s;
+}
+
+#AIresearchpaper:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+    transition-duration: 0.4s;
+}
+
+#nimalresearchpaper:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+    transition-duration: 0.4s;
+}
+
+#cartshowcase {
+    font-size: x-large;
+}
+
+#pawpal {
+    font-size: x-large;
+}
+
+#fczapp {
+    font-size: x-large;
+}
+
+#AIresearchpaper {
+    font-size: x-large;
+}
+
+#animalresearchpaper {
+    font-size: x-large;
 }
