@@ -31,6 +31,7 @@ header h1 {
     flex-direction: column;
     cursor: pointer;
     border-radius: 8px;
+    font-size: x-large;
 }
 
 #pawpal {
@@ -46,6 +47,7 @@ header h1 {
     flex-direction: column;
     cursor: pointer;
     border-radius: 8px;
+    font-size: x-large;
 }
 
 #fczapp {
@@ -61,6 +63,7 @@ header h1 {
     flex-direction: column;
     cursor: pointer;
     border-radius: 8px;
+    font-size: x-large;
 }
 
 #AIresearchpaper {
@@ -75,6 +78,7 @@ header h1 {
     flex-direction: column;
     cursor: pointer;
     border-radius: 8px;
+    font-size: x-large;
 }
 
 #animalresearchpaper {
@@ -89,11 +93,13 @@ header h1 {
     flex-direction: column;
     cursor: pointer;
     border-radius: 8px;
+    font-size: x-large;
 }
 
 #cartshowcase:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
     transition-duration: 0.4s;
+    animation: transform 1s;
 }
 
 #pawpal:hover {
@@ -116,22 +122,10 @@ header h1 {
     transition-duration: 0.4s;
 }
 
-#cartshowcase {
-    font-size: x-large;
-}
-
-#pawpal {
-    font-size: x-large;
-}
-
-#fczapp {
-    font-size: x-large;
-}
-
-#AIresearchpaper {
-    font-size: x-large;
-}
-
-#animalresearchpaper {
-    font-size: x-large;
+@keyframes transform {
+    from {bottom: 0px;
+    }
+    to {bottom: 200px;
+    rotate: 360deg;
+    }
 }
