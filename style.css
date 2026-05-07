@@ -99,27 +99,31 @@ header h1 {
 #cartshowcase:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
     transition-duration: 0.4s;
-    animation: transform 1s;
+    animation: transform 1s infinite;
 }
 
 #pawpal:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
     transition-duration: 0.4s;
+    animation: transform 1s infinite;
 }
 
 #fczapp:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
     transition-duration: 0.4s;
+    animation: transform 1s infinite;
 }
 
 #AIresearchpaper:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
     transition-duration: 0.4s;
+    animation: transform 1s infinite;
 }
 
 #nimalresearchpaper:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
     transition-duration: 0.4s;
+    animation: transform 1s infinite;
 }
 
 @keyframes transform {
